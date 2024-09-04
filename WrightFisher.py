@@ -6,14 +6,7 @@ Created on Mon Dec  4 19:08:20 2023
 """
 
 import numpy as np
-try:
-    import itertools.izip as zip
-except ImportError:
-    import itertools
-from Bio import Phylo
-from Bio.Phylo.TreeConstruction import DistanceCalculator
-from Bio.Phylo.TreeConstruction import DistanceTreeConstructor
-from Bio import AlignIO
+
 
     
 pop_size = 200  #100
