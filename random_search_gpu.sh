@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --gpus-per-node=p100:4
 #SBATCH --ntasks-per-node=24
-#SBATCH --exclusive
 #SBATCH --mem=125G
 #SBATCH --time=7-00:00      # time (DD-HH:MM)
 #SBATCH --output=%N-%j.out  # %N for node name, %j for jobID
