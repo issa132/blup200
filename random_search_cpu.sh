@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --account=def-banire
-#SBATCH --cpus-per-task=6   # number of cores
+#SBATCH --cpus-per-task=16   # number of cores
 #SBATCH --mem=4G            # memory for the entire job across all cores (4GB)
 #SBATCH --time=0-00:10      # time (DD-HH:MM)
 #SBATCH --output=%N-%j.out  # %N for node name, %j for jobID
